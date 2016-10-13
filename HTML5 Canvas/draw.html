@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+	<title>Drawing board using HTML5 Canvas</title>
+	<link rel="stylesheet" type="text/css" href="css/draw.css" />
+</head>
+<body>
+	<div id="container">
+		<h2> Choose Color</h2>
+		<h2> Choose Brush</h2>
+		<div id="colorPalette">
+			<input id="selectedColor" type="color"/>
+			
+		</div>
+		<div id="drawingBoard">
+			<canvas id="myCanvas" width="400px" height="400px">
+					Oops! Canvas not supported in this browser
+			</canvas>
+		</div>
+		<div id="brushPalette">
+			<div data-stroke="2" class='Brush1'></div>
+			<div data-stroke="4" class='Brush2'></div>
+			<div data-stroke="8" class='Brush3'></div>
+			<div data-stroke="16" class='Brush4'></div>
+		</div>
+	</div>
+</body>
+<script src="js/draw.js"></script>
+</html>

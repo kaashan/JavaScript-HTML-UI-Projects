@@ -1,0 +1,58 @@
+body {
+	margin: 0;
+	background-color: white;
+}
+
+#container h2:nth-child(1){
+	position: absolute;
+    top: 150px;
+	left: 190px;
+}
+
+#container h2:nth-child(2){
+	position: absolute;
+    top: 150px;
+	right: 180px;
+}
+
+#drawingBoard {
+	margin: 0 auto;
+	width: 400px;
+	border: 30px solid;
+	border-image-source: url(../images/frame.png);
+	border-image-slice: 20;
+	border-image-width: 15px;
+}
+
+#colorPalette , #brushPalette{
+    position: absolute;
+    top: 200px;
+	width: 70px;
+	padding: 18px;
+    border: 1px solid gray;
+    border-radius: 50%;
+	background-color: azure;
+}
+
+#colorPalette{
+    height: 64px;
+    left: 200px;
+}
+
+#colorPalette input{
+    position: relative;
+    top: 18px;
+    left: 10px;
+}
+
+#brushPalette{
+    right: 200px;
+}
+
+#brushPalette div{
+	display: inline-block;
+}
+#brushPalette .Brush1 { background: url('../images/Brush1.png') no-repeat; height: 28px; width: 29px; border: 2px dotted;} 
+#brushPalette .Brush2 { background: url('../images/Brush2.png') no-repeat; width: 27px; height: 27px;} 
+#brushPalette .Brush3 { background: url('../images/Brush3.png') no-repeat; width: 28px; height: 28px;} 
+#brushPalette .Brush4 { background: url('../images/Brush4.png') no-repeat; width: 30px; height: 27px;} 
